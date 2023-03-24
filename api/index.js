@@ -2,7 +2,6 @@ const express = require('express');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
-const path = require('path');
 const dotenv = require('dotenv');
 
 dotenv.config();
@@ -67,16 +66,6 @@ app.get('/api/me', async (req, res, next) => {
         })
     }
 });
-
-
-
-//static files
-app.use(express.static(path.join(__dirname, "./client/dist")));
-
-app.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "./client/dist/index.html"));
-});
-
 
 const port = process.env.PORT || 4000
 
