@@ -27,9 +27,10 @@ app.post('/api/login', async (req, res, next) => {
     })
 
     res.cookie('uname', name, {
-        maxAge: 30 * 24 * 60 * 60 * 1000,
-        secure: true,
-        sameSite: false
+        httpOnly: true,
+      maxAge: 15 * 60 * 1000,
+      sameSite: "none",
+      secure: true,
     }).send({
         success: true,
         name: req.body.name,
@@ -41,9 +42,10 @@ app.post('/api/login', async (req, res, next) => {
 app.post('/api/logout', (req, res, next) => {
 
     res.cookie('uname', null, {
-        maxAge: 0,
-        secure: true,
-        sameSite: false
+       httpOnly: true,
+      maxAge: 0,
+      sameSite: "none",
+      secure: true,
     }).send({
         success: true,
         message: 'logout successfully'
