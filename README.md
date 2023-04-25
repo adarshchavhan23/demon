@@ -1,6 +1,6 @@
 # TechBlogs - Blog site (MERN Stack)
 
-TechBlogs is fully functional blogging application which is inspired from techwiser.com.
+TechBlogs is fully functional and responsive blogging site which is inspired from techwiser.com.
 
 ## Environment Variables
 
