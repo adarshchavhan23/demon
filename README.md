@@ -1,8 +1,8 @@
 # TechBlogs - Blog site (MERN Stack)
 
-TechBlogs is fully functional and responsive blogging site which is inspired from techwiser.com.
+TechBlogs is fully functional and responsive blogging site which is inspired from techwiser.com 👉 [click here](https://techwiser.netlify.app/) to view.
 
-## Environment Variables
+## Environmet Variables
 
 To run this project, you will need to add the following environment variables to your .env file
 
@@ -42,45 +42,33 @@ Inside Client & Server install with npm
 
 **Homepage**
 
-<img width="1440" alt="Screenshot 2021-06-17 at 8 09 36 PM" src="https://user-images.githubusercontent.com/42139446/122419364-79cf0d80-cfa8-11eb-8aa3-66e99eebfdf4.png">
+![hom-1](https://user-images.githubusercontent.com/93827592/234312584-7573b216-376e-4858-910b-efc1f70c43c6.png)
+<hr/>
 
-**Course Search by Category**
+**Search**
 
-<img width="1440" alt="Screenshot 2021-06-17 at 8 11 12 PM" src="https://user-images.githubusercontent.com/42139446/122419515-979c7280-cfa8-11eb-9153-cb684ddf9113.png">
+![search](https://user-images.githubusercontent.com/93827592/234313510-286b2777-e03d-4e04-a813-1f58f2d325e1.png)
+<hr/>
 
-**Search by keyword Page**
+**Post Details**
 
-<img width="1440" alt="Screenshot 2021-06-17 at 8 11 48 PM" src="https://user-images.githubusercontent.com/42139446/122419632-aedb6000-cfa8-11eb-8dc0-18e192760f8c.png">
+![post](https://user-images.githubusercontent.com/93827592/234314151-9bfc45aa-ee6f-4852-9791-32ec1b56c998.png)
+<hr/>
 
-**Course Details Page**
+**Profile**
 
-<img width="1440" alt="Screenshot 2021-06-17 at 8 11 28 PM" src="https://user-images.githubusercontent.com/42139446/122419748-c74b7a80-cfa8-11eb-92eb-6a8e88aee233.png">
-
-**Course Material View**
-
-<img width="1440" alt="Screenshot 2021-06-17 at 8 12 18 PM" src="https://user-images.githubusercontent.com/42139446/122419910-e6e2a300-cfa8-11eb-8a7e-02604f1b99ae.png">
+![profile](https://user-images.githubusercontent.com/93827592/234314394-f77c7748-eb29-41fd-9114-47de5eb9f1b4.png)
+<hr/>
 
 ## Tech Stack
 
-**Client:** React, Redux
+**Client:** React, Redux-toolkit
 
-**Server:** Node, Express, MongoDb, Mongoose, Firebase
+**Server:** Node, Express, MongoDb, Mongoose
 
 ## Libraries Used
 
-**Client:** Material Ui, Styled-Components, Axios, Firebase, React-Player, React-Markdown
+**Client:** Axios, Formik, Yup, React-quill, React-hot-toast, Timeago.js, Sass
 
-**Server:** Cors, Bcrypt
+**Server:** Cors, Bcrypt, Jsonwebtoken, Cloudinary
 
-## Authors
-
-- Hinduraj Kadam - [@Hinduraj8199](https://github.com/Hinduraj8199)
-- Vedansh Wani [@vedascript](https://github.com/vedascript)
-- Gaurav Tambe [@tambegaurav](https://github.com/tambegaurav)
-
-## Acknowledgements
-
-- [Masai School](https://www.masaischool.com/)
-- [Albert Sebastian](https://github.com/albseb511)
-- [Dhaval Chheda](https://github.com/kiddodhaval)
-- [Prabhanjan](https://github.com/Sparkenstein)
